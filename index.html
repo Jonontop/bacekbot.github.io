@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Discord Bot Name - Your Ultimate Server Companion</title>
+        <title>Bacek Discord Bot</title>
         <meta name="description" content="Discover Discord Bot Name, a powerful bot for your server. Features include music playback, joke generation, search capabilities, and more.">
         <meta name="keywords" content="Discord bot, server bot, music bot, joke bot, search bot, Discord commands, bot features">
         <meta name="author" content="Your Name or Your Company's Name">
@@ -14,10 +14,16 @@
         <meta property="og:url" content="https://jonpecar.me/bacekbot.github.io/">
         <meta property="og:type" content="website">
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:title" content="Discord Bot Name - Your Ultimate Server Companion">
+        <meta name="twitter:title" content="Discord Bacek Bot - Your Ultimate Server Companion">
         <meta name="twitter:description" content="A simple and powerful bot for your server with music, jokes, search capabilities, and more.">
         <meta name="twitter:image" content="URL_to_image.jpg">
         <meta name="twitter:site" content="@YourTwitterHandle">
+        <meta name="twitter:creator" content="@YourTwitterHandle">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js"></script>
+
+        <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Inter&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Space+Mono&family=Wellfleet&display=swap" rel="stylesheet">
@@ -31,14 +37,14 @@
             <li class="nav_li"><a href="https://discord.com/oauth2/authorize?client_id=1238540394501767208&permissions=633318697598967&scope=applications.commands+bot" class="nav_a">Invite</a></li>
         </ul>
     </nav>
-    <header class="header">
+    <header class="header" id="header">
         <h1 class="header_h1">Discord Bot Name</h1>
         <p class="header_p">A simple bot for your server</p>
         <br><br><br><br><br>
         <a href="https://discord.com/oauth2/authorize?client_id=1238540394501767208&permissions=633318697598967&scope=applications.commands+bot" class="header_a" style="margin-right: 45px;">Invite</a>
         <a href="https://ninjacofs-organization.gitbook.io/untitled/" class="header_a" style="margin-left: 45px;">Docs</a>
     </header>
-    <section class="section_1">
+    <section class="section_1" id="section">
         <h1 style="font-size: 3em; font-weight: 700;">Features</h1>
         <p style="margin-bottom: 4em; font-size: 1.5em;">Here are some of the features of the bot</p>
         <div class="section_1_div_main">
@@ -61,151 +67,59 @@
         </div>
     </section>
     <section>
-        <h1 style="font-size: 3em; font-weight: 700;">Commands</h1>
-        <p style="margin-bottom: 4em; font-size: 1.5em;">Here are some of the commands of the bot</p>
+
+    </section>
+    <section class="section_2" id="section" style="margin-top: 10em;">
+        <h1 style="font-size: 3em; font-weight: 700;">Command Types</h1>
+        <p style="margin-bottom: 4em; font-size: 1.5em;">Here are some of the commands of the bot</p><br><br>
         <div class="section_1_div_main">
             <div class="section_1_div">
-                <h2>!play</h2>
-                <p>Play music from youtube</p>
+                <h2>Music</h2>
+                <p>Play music from youtube and spotify!</p>
             </div>
             <div class="section_1_div">
-                <h2>!joke</h2>
-                <p>Get a random joke</p>
+                <h2>Fun</h2>
+                <p>Get a random joke,meme, fun fact and more!</p>
             </div>
             <div class="section_1_div" style="margin-top: 10em;">
-                <h2>!search</h2>
+                <h2>Searching</h2>
                 <p>Search on youtube, google, wikipedia and more</p>
             </div>
             <div class="section_1_div" style="margin-top: 10em;">
-                <h2>!mic</h2>
-                <p>Learn about microphones</p>
+                <h2>Games</h2>
+                <p>Get in game stats from your favorite game!</p>
             </div>
         </div>
     </section>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Inter', sans-serif;
-        }
-        .nav {
-            background-color: #7289DA;
-            padding: 20px;
-        }
-        .nav_ul {
-            list-style-type: none;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .nav_li {
-            margin: 0 40px;
-        }
-        .nav_a {
-            text-decoration: none;
-            color: white;
-            font-size: 1.5em;
-            border: #7289DA 1px solid;
-            border-radius: 10px;
-            padding: 10px;
-            transition: all 0.5s;
-        }
-        .nav_a:hover {
-            border-color: white;
-            border-radius: 40px;
-            background-color: white;
-            color: #7289DA;
-        }
-        .header {
-            text-align: center;
-            margin-top: 27em;
-            margin-bottom: 30em;
-        }
-        .header_h1 {
-            font-family: 'Radio Canada Big', sans-serif;
-            font-size: 4rem;
-            padding-bottom: 1em;
-            margin: 0;
-        }
-        .header_p {
-            font-size: 1.9rem;
-            margin: 0;
-        }
-
-        .header_a {
-            text-decoration: none;
-            border: #7289DA 1px solid;
-            background-color: #7289DA;
-            border-radius: 40px;
-            padding: 20px;
-            padding-left: 40px;
-            padding-right: 40px;
-            font-size: 1.5em;
-            transition: all 0.5s;
-            margin: 10px;
-            letter-spacing: 1.6px;
-            color: white;
-        }
-
-        .header_a:hover {
-            background-color: white;
-            color: #7289DA;
-            border-color: white;
-        }
-
-        section {
-            margin-top: 20em;
-            padding: 5em;
-            text-align: center;
-            background-color: #7289DA;
-            color: white;
-        }
-
-        .section_1_div_main {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-        }
-
-        .section_1_div {
-            margin-top: 2em;
-            border: white 1px solid;
-            border-radius: 10px;
-            width: 50%;
-            margin: auto;
-            height: 250px;
-            padding-bottom: auto;
-        }
-
-        .section_1_div h2 {
-            font-size: 2em;
-            font-weight: 700;
-        }
-
-        .section_1_div p {
-            font-size: 1.2em;
-            width: 50%;
-            margin: auto;
-        }
-
-        @media screen and (max-width: 1500px) {
-            .section_1_div {
-                width: 80%;
-            }
-
-            .section_1_div p{
-                width: 90%;
-            }
-        }
-
-        @media screen and (max-width: 800px) {
-            .section_1_div_main {
-                display: flex;
-                flex-direction: column;
-            }
-            .section_1_div {
-                width: 80%;
-            }
-        }
-    </style>
+    <section class="section_3" id="section">
+        <h1 style="font-size: 3em; font-weight: 700;"></h1>
+        <p style="margin-bottom: 4em; font-size: 1.5em;"></p>
+        <div class="section_1_div_main">
+            <div class="section_3_div">
+                <h2>Support</h2>
+                <p>Need Support? Join our Discord Server and open a ticket!</p>
+                <br><br><br><br>
+                <a href="" class="header_a">Support</a>
+            </div>
+            <div class="section_3_div">
+                <h2>Invite</h2>
+                <p>Click the button below to invite the Discord Bacek Bot to your server.</p>
+                <br><br><br><br>
+                <a href="https://discord.com/oauth2/authorize?client_id=1238540394501767208&permissions=633318697598967&scope=applications.commands+bot" class="header_a">Invite</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p style="text-align: center; padding: 20px;">&copy; 2024 Discord Bacek Bot. All rights reserved.</p>
+    </footer>     
+    
+    <script>
+        // Main header height = total screen height - screen margin top - nav height - padding
+        var screenHeight = window.innerHeight;
+        var screenMarginTop = screenHeight / 3;
+        var header = document.getElementById('header');
+        header.style.height = screenHeight - screenMarginTop - 80 + 'px';
+        header.style.marginTop = screenMarginTop + 'px';
+    </script>
 </body>
 </html>
